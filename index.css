@@ -562,7 +562,7 @@ width: 120px;
 height: 62px;
 left: 52px;
 top: 390px;
-/* border-radius: 50%; */
+border-radius: 50%;
 background: #FFFFFF;
 }
 .frame4 .twitter{
@@ -571,6 +571,8 @@ background: #FFFFFF;
     height: 62px;
     left: 234px;
     top: 392px;
+    border-radius:50%;
+
     
     background: #FFFFFF;
 }
@@ -579,6 +581,7 @@ background: #FFFFFF;
 position: absolute;
 width: 100px;
 height: 62px;
+border-radius:50%;
 left: 438px;
 top: 390px;
 background: #FFFFFF;
@@ -596,3 +599,188 @@ border: 10px solid dodgerblue;
 .frame4:hover{
     border: 10px solid orangered;
 }
+.kex{
+position: absolute;
+width: 26px;
+height: 16px;
+left: 10px;
+top: 12px;
+border-radius: 50%;
+background: #F21422
+}
+.kex p{
+position: absolute;
+width: 70px;
+height: 22px;
+left: 10px;
+top: -8px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+color: #FFFFFF;
+}
+.frame-{
+position: relative;
+width: 100%;
+height:1000px;
+
+background: #000000
+}
+.frame- .para-{
+    position: absolute;
+    width: 767px;
+    height: 148px;
+    left: 122px;
+    top: 34px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    
+    color: #FFFFFF;
+    
+
+}
+.frame- .para{
+    position: absolute;
+    width: 767px;
+    height: 148px;
+    left: 122px;
+    top:110px;
+    
+    font-family: 'Judson';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 74px;
+    
+    color: #FFFFFF;
+    
+
+}
+.frame- img{
+ position: absolute;
+width: 300px;
+height: 300px;
+left: 800px;
+top: 16px;
+border-radius: 50%;
+object-fit: cover;
+
+}
+.frame- .wel{
+position: absolute;
+width: 537px;
+height: 62px;
+left: 112px;
+top: 300px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF
+}
+.frame- button{
+ position: absolute;
+width: 1000px;
+height: 76px;
+left: 126px;
+top: 600px;
+color: white;
+background: #F21422;
+border-radius: 50px;
+font-family: 'Judson';
+font-size: 22px;
+
+}
+.frame- a{
+text-decoration: none;
+color: white;
+}
+.container{
+    border: 100px solid black;
+    height: 1000px;
+    background-color:black;
+}
+.blog-t{
+    position: relative;
+    width: 1050px;
+    height: 190px;
+    
+    background: #000000;
+}
+.blog-t p{
+position: absolute;
+width: 761px;
+height: 61px;
+left: 740px;
+top: -100px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 74px;
+
+color: #FFFFFF;
+
+}
+ .blog-t .p{
+    position: absolute;
+width: 464px;
+height: 53px;
+left: 740px;
+top: 80px;
+
+font-family: 'Judson';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 23px;
+
+color: red;
+
+ }
+ .blog .o{
+position: absolute;
+width: 404px;
+height: 284px;
+left: 33px;
+top: 350px;
+ }
+ .blog .t{
+    position: absolute;
+width: 775px;
+height: 574px;
+left: 512px;
+top: 350px;
+
+ }
+ .blog .h{
+    position: absolute;
+width: 717.55px;
+height: 697.54px;
+left: 1200.58px;
+top: 300.08px;
+transform: rotate(33.16deg)
+ }
+.blog button{
+ position: absolute;
+ width: 1000px;
+ height: 76px;
+ left: 90px;
+ top:900px;
+ color: white;
+ background: #F21422;
+ border-radius: 50px;
+ font-family: 'Judson';
+ font-size: 22px;}
