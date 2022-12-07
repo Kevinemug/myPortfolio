@@ -784,3 +784,133 @@ transform: rotate(33.16deg)
  border-radius: 50px;
  font-family: 'Judson';
  font-size: 22px;}
+
+ .about{
+position: relative;
+width: 100%;
+height: 1500px;
+background: #000000;
+ }
+
+ .line{
+position: absolute;
+width: 70.98px;
+height: 1.06px;
+left: 939px;
+background: #F21422;
+top: 90.44px;
+border: 1px solid #FF0422;
+transform: rotate(0.86deg);
+ }
+  .ab{
+    position: absolute;
+    width: 132px;
+    height: 25px;
+    left: 1020px;
+    top: 59px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    color: #FFFFFF;
+    
+
+ }
+  .abb{
+position: absolute;
+width: 1002px;
+height: 107px;
+left:500px;
+top: 107px;
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+ }
+ .about .react{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 202px;
+top: 447px;
+
+ }
+ .about .node{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 700px;
+top: 350px;
+ }
+
+ .about .figma{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 1500px;
+    top: 450px;
+
+ }
+ .about .django{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 202px;
+    top: 800px;
+
+ }
+ .about .tail{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 800px;
+    top: 800px;
+ }
+ .about .mango{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 1500px;
+    top: 800px;
+ }
+ .projects{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background: #000000;
+ }
+ .projects .abb{
+    position:   absolute;
+    left: 950px;
+    top: 150px;
+    font-size: 30px;
+ }
+ .projects .gwiza{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 202px;
+    top: 447px;
+}
+.projects .bika{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 700px;
+    top: 450px;
+     }
+     .projects .uplus{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 1500px;
+        top: 450px;
+    
+     }
+    
