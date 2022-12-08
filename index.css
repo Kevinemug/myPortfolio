@@ -178,18 +178,20 @@ text-align: center;
 
 }
 .react img{
-height: 79.3561019897461px;
-width: 113.91568756103516px;
+    position: absolute;
+
+height: 43px;
+width: 50.91568756103516px;
 left: 359.513671875px;
 top: 109.951171875px;
 border-radius: 0px;
-position: absolute;
-left: 33.73%;
+left: 400.73px;
 right: 55.59%;
-top: 28.05%;
+top: 150px;
 bottom: 51.71%;
 }
 .re{
+    
 height: 36.55305480957031px;
 width: 256.27069091796875px;
 left: 439.0574951171875px;
@@ -222,14 +224,14 @@ color: #FFFFFF;
 }
 .node img{
     position: absolute;
-    left: 34.71%;
+    left: 40px;
     right: 56.37%;
     top: 51.22%;
     bottom: 33.17%;
-    height: 100.19024658203125px;
-width: 200.10391998291016px;
-left: 270.9647216796875px;
-top: 200.7802734375px;
+    height: 43.19024658203125px;
+width: 50.10391998291016px;
+left: 400.9647216796875px;
+top: 220.7802734375px;
 border-radius: 0px;
 
 }
