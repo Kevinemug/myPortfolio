@@ -558,33 +558,33 @@ color: #FFFFFF;
 }
 .frame4 .gmail{
 position: absolute;
-width: 120px;
-height: 62px;
+width: 50px;
+height: 43px;
 left: 52px;
-top: 390px;
-border-radius: 50%;
-background: #FFFFFF;
+top: 420px;
+/* border-radius: 50%; */
+/* background: #FFFFFF; */
 }
 .frame4 .twitter{
     position: absolute;
-    width: 100px;
-    height: 62px;
-    left: 234px;
-    top: 392px;
-    border-radius:50%;
+    width: 50px;
+    height: 43px;
+    left: 160px;
+    top: 420px;
+    /* border-radius:50%; */
 
     
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 }
 
 .frame4 .github{
 position: absolute;
-width: 100px;
-height: 62px;
-border-radius:50%;
-left: 438px;
-top: 390px;
-background: #FFFFFF;
+width: 50px;
+height: 43px;
+/* border-radius:50%; */
+left: 280px;
+top: 420px;
+/* background: #FFFFFF; */
 }
 .frame1:hover{
 
@@ -913,4 +913,18 @@ top: 350px;
         top: 450px;
     
      }
-    
+     /* @media  screen and (min-width: 768px){
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .frame1{
+ position: absolute;
+width: 768px;
+height: 377px;
+background: #F21422;
+
+        }
+
+     }
+     */
