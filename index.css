@@ -930,3 +930,95 @@ background: #F21422;
 
      }
      */
+     .reactt{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 202px;
+        top: 447px;
+        
+         }
+         .nodee{
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 850px;
+        top: 447px;
+         }
+        
+          .figmaa{
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            left: 1500px;
+            top: 447px;
+         }        
+         .linee{
+            position: absolute;
+            width: 70.98px;
+            height: 1.06px;
+            left: 939px;
+            background: #F21422;
+            top: 1100px;
+            border: 1px solid #FF0422;
+            transform: rotate(0.86deg);
+         }
+
+         .abbb{
+            position: absolute;
+            width: 132px;
+            height: 25px;
+            left: 1020px;
+            top: 1070px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 15px;
+            color: #FFFFFF;
+            
+        
+         }
+         .abbi{
+            position: absolute;
+            width: 1002px;
+            height: 107px;
+            left:640px;
+            top: 1120px;
+            /* font-family: 'Inter'; */
+            font-style: normal;
+            font-weight: 400px;
+            font-size: 50px;
+            line-height: 30px;
+            
+            color: #FFFFFF;
+            
+             }
+  .lo{
+                position: absolute;
+width: 590px;
+height: 72px;
+
+background:red;
+border-radius: 30px;
+top: 1300px;
+color: white;
+font-size: 24px;
+font-family: 'inter';
+left: 700px;
+            }
+
+.loo{
+                position: absolute;
+width: 590px;
+height: 72px;
+
+background:red;
+border-radius: 30px;
+top: 1400px;
+color: white;
+font-size: 24px;
+font-family: 'inter';
+left: 700px;
+            }
