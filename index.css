@@ -1,19 +1,24 @@
-.container{
-width: 100%;
 
+body{
+    background: #000000;
 }
+
+
+
+
 .frame1{
+    position: absolute;
  height: 377px;
-width: 1020px;
+width: 100vh;
 left: 19px;
 top: 29px;
 border-radius: 0px;
 
-position: absolute;
+/* position: absolute;
 width: 1020px;
 height: 377px;
 left: 19px;
-top: 29px;
+top: 29px; */
 /* background-image: url(images2/Fresh_Stock_Content.jpg); */
 border: 10px solid black;
 /* background: no-repeat; */
@@ -56,9 +61,8 @@ object-fit: cover;
   }
   .frame1 img{
     height: 377px ;
-    width: 1020px;
+    width: 100vh;
     object-fit: cover;
-
 }
 
 .words p{
@@ -145,9 +149,9 @@ border-radius: 20px;
     position: absolute;
 
     height: 410px;
-    width: 890px;
-    left: 1085px;
-    top: 29px;
+    width: 100vh;
+    left: 19px;
+    top: 450px;
     border-radius: 0px;
     border: 10px solid black;
     /* background-image: url(images2/A1.jpg); */
@@ -155,7 +159,7 @@ border-radius: 20px;
 }
 .frame2 img{
     height: 410px;
-    width: 890px; 
+    width: 100vh; 
     /* object-fit: cover; */
 }
 
@@ -322,13 +326,13 @@ color: #FFFFFF;
 height: 379px;
 width: 1020px;
 left: 10px;
-top: 529px;
+top: 480px;
 border-radius: 0px;
 position: absolute;
-width: 1020px;
-height: 379px;
+width: 100vh;
+height: 400px;
 left: 10px;
-top: 529px;
+top: 1500px;
 background: #FFFFFF;
 border: 10px solid black;
 
@@ -442,8 +446,8 @@ font-weight: bolder;
 
 }
 .frame3 .image {
-    height: 379px;
-    width: 1020px;
+    height: 400px;
+    width: 100vh;
     object-fit: cover;
 
 
@@ -451,16 +455,16 @@ font-weight: bolder;
 .frame4{
     border: 10px solid black;
 position: absolute;
-width: 870px;
+width: 100vh;
 height: 495px;
-left: 1086px;
-top: 500px;
+left: 19px;
+top: 900px;
 
 
 }
 .frame4 .imagee{
 
-width: 870px;
+width: 100vh;
 height: 495px;
 object-fit: cover;
 }
@@ -708,11 +712,6 @@ font-size: 22px;
 text-decoration: none;
 color: white;
 }
-.container{
-    border: 100px solid black;
-    height: 1000px;
-    background-color:black;
-}
 .blog-t{
     position: relative;
     width: 1050px;
@@ -798,7 +797,7 @@ background: #000000;
 position: absolute;
 width: 70.98px;
 height: 1.06px;
-left: 939px;
+left: 320px;
 background: #F21422;
 top: 90.44px;
 border: 1px solid #FF0422;
@@ -808,7 +807,7 @@ transform: rotate(0.86deg);
     position: absolute;
     width: 132px;
     height: 25px;
-    left: 1020px;
+    left: 400px;
     top: 59px;
     
     font-family: 'Inter';
@@ -826,10 +825,10 @@ width: 1002px;
 height: 107px;
 left:500px;
 top: 107px;
-/* font-family: 'Inter'; */
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 30px;
+font-size: 20px;
 line-height: 30px;
 
 color: #FFFFFF;
@@ -883,13 +882,13 @@ top: 350px;
  }
  .projects{
     position: relative;
-    width: 100%;
+    width: 100vh;
     height: 1500px;
-    background: #000000;
+    /* background: #000000; */
  }
  .projects .abb{
     position:   absolute;
-    left: 950px;
+    left: 202px;
     top: 150px;
     font-size: 30px;
  }
@@ -902,17 +901,17 @@ top: 350px;
 }
 .projects .bika{
     position: absolute;
-    width: 400px;
+    width: 200px;
     height: 200px;
-    left: 700px;
-    top: 450px;
+    left: 202px;
+    top: 700px;
      }
      .projects .uplus{
         position: absolute;
-        width: 300px;
+        width: 200px;
         height: 200px;
-        left: 1500px;
-        top: 450px;
+        left: 202px;
+        top: 950px;
     
      }
      /* @media  screen and (min-width: 768px){
@@ -1022,3 +1021,34 @@ font-size: 24px;
 font-family: 'inter';
 left: 700px;
             }
+
+@media screen and (min-width:1400px) {
+    .frame2{
+left: 1060px;
+top: 19px;
+    }
+    .frame4{
+        top: 500px;
+        left: 1060px;
+    }
+    .frame3{
+        top: 500px;
+    }
+.projects{
+    max-width: 100vh;
+max-height: 100vh;
+}
+.projects .bika{
+    width: 400px;
+    height: 200px;
+    left: 700px;
+    top: 447px;
+
+}
+.projects .uplus{
+    width:500px;
+    left: 1500px;
+    top:447px ;
+}
+
+}
