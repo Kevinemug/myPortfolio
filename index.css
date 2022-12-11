@@ -1062,6 +1062,194 @@ line-height: 29px;
 color: #FFFFFF;
 
             }
+ .myblog .b-im{
+position: absolute;
+width: 100vh;
+height: 254px;
+left: 0px;
+top: 0px;
+background: url(images2/image.jpg);
+            }
+
+.myblog .title{
+ position: absolute;
+width: 634px;
+height: 93px;
+left: 308px;
+top: 82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.myblog .back{
+position: absolute;
+width: 400px;
+height: 400px;
+left: 42px;
+top: 309px;
+background-repeat: no-repeat;
+object-fit: cover;
+}    
+.myblog .content{
+position: absolute;
+width: 560px;
+height: 400px;
+left: 42px;
+top: 620px;
+background: #D9D9D9;
+}   
+
+ .IT{
+
+
+
+position: absolute;
+width: 49px;
+height: 28px;
+left: 51px;
+top: 640px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+} 
+
+
+
+.Dec{
+
+
+position: absolute;
+width: 109px;
+height: 24px;
+left: 50px;
+top: 710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+
+.Featured{
+
+
+position: absolute;
+width: 184px;
+height: 26px;
+left: 50px;
+top: 670px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+color: #F24E1E;
+}
+.myblog .status{
+position: absolute;
+width: 281px;
+height: 108px;
+left: 51px;
+top: 750px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.myblog .more{
+    position: absolute;
+width: 197px;
+height: 24px;
+left: 51px;
+top: 830px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+
+color: #4285F4;
+
+}
+.like{
+    position: absolute;
+    width: 38px;
+    height: 33px;
+    left: 62px;
+    top: 900px;
+}
+.likes{
+position: absolute;
+width: 60px;
+height: 14px;
+left: 96px;
+top: 905px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 15px;
+
+color: #FD0B0B;
+
+}
+.comment{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 172px;
+    top: 905px;
+    
+}
+.comments{
+position: absolute;
+width: 85px;
+height: 16px;
+left: 206px;
+top: 910px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+line-height: 15px;
+
+color: blue;
+
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:1400px) {
     .frame2{
