@@ -1243,13 +1243,21 @@ color: blue;
 }
 
 
+.rect2{
+    position:absolute;
+    left: 700px;
+    top: 6px ;
 
-
-
-
-
-
-
+}
+.myblog .container{
+    position:absolute;
+top: -30px;
+left: 5px;
+}
+.rect2 .content{
+    width: 600px;
+    height: 424px;
+}
 
 @media screen and (min-width:1400px) {
     .frame2{
@@ -1278,6 +1286,12 @@ max-height: 100vh;
     width:500px;
     left: 1500px;
     top:447px ;
+}
+.myblog .b-im{
+    position: absolute;
+    width: 1000px;
+       
+
 }
 
 }
