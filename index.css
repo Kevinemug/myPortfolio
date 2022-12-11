@@ -438,7 +438,7 @@ color: #FFFFFF;
  position: absolute;
 width: 60px;
 height: 48px;
-left: 941px;
+left: 900px;
 top: 240px;
 color: #f2f2f2;
 font-size:60px;
@@ -1261,6 +1261,13 @@ left: 5px;
 .coop{
     position: absolute;
     top: -200px;
+}
+a{
+    text-decoration: none;
+}
+.frame3 a{
+    border: none;
+    text-decoration: none;
 }
 @media screen and (min-width:1400px) {
     .frame2{
