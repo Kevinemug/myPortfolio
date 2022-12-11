@@ -1258,7 +1258,10 @@ left: 5px;
     width: 600px;
     height: 424px;
 }
-
+.coop{
+    position: absolute;
+    top: -200px;
+}
 @media screen and (min-width:1400px) {
     .frame2{
 left: 1060px;
