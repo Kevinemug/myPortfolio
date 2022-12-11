@@ -1021,6 +1021,47 @@ font-size: 24px;
 font-family: 'inter';
 left: 700px;
             }
+            .why .line{
+                position: absolute;
+                width: 156px;
+                height: 0px;
+                left: 200px;
+                top: 100px;
+                border: 2px solid #FF0422;
+            }
+            .why .ab{
+                position: absolute;
+                width: 280px;
+                height: 54px;
+                left: 382px;
+                top: 61px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 29px;
+                
+                color: #FFFFFF;
+                
+
+            }
+            .why .abb{
+                position: absolute;
+width: 909px;
+height: 593px;
+left: 162px;
+top: 169px;
+
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+            }
 
 @media screen and (min-width:1400px) {
     .frame2{
