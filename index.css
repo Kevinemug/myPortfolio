@@ -1096,7 +1096,7 @@ left: 42px;
 top: 309px;
 background-repeat: no-repeat;
 object-fit: cover;
-}    
+}   
 .myblog .content{
 position: absolute;
 width: 560px;
@@ -1335,3 +1335,14 @@ a{
     background-color:black;
     color: white;
   }  */
+
+  .rect3{
+    position: absolute;
+    left: 700px;
+  }
+  .rect2 .title{
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    height: 20vh;
+  }
