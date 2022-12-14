@@ -123,7 +123,6 @@ color: #fff;
 .list{
         list-style: none;
         padding-left: 0;
-
          
 }
 .list--inline .list__item{
@@ -801,3 +800,28 @@ order: 2;
 .owners-grid > img{
         object-fit: cover;
 }
+.kex{
+        position: absolute;
+        width: 26px;
+        height: 16px;
+        left: 10px;
+        top: 12px;
+        border-radius: 50%;
+        background: #F21422
+        }
+        .kex p{
+        position: absolute;
+        width: 70px;
+        height: 22px;
+        left: 10px;
+        top: 0px;
+        
+        font-family: 'Judson';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        
+        color: #FFFFFF;
+        }
+        
