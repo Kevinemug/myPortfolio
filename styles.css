@@ -566,7 +566,8 @@ opacity: 1;}
 } 
 .container{
    max-width: 1140px; 
-   margin: 0 auto;    
+   margin-left: 10px; 
+   
 }
 /* Navigation Bar */
 .nav{
@@ -633,7 +634,8 @@ opacity: 1;}
      margin: 2rem 0 5rem;
 }
 .hero__image{
-        width:100%;
+width:100%;
+
 }
 @media screen and (min-width:768px){
         .hero{
