@@ -7,7 +7,7 @@ body{
 
 
 .frame1{
-    position: absolute;
+position: absolute;
  height: 377px;
 width: 100vh;
 left: 19px;
@@ -1350,4 +1350,21 @@ a{
     left: 700px;
     top: 10px;
     height: 20vh;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+@media screen and (max-width: 480px) {
+    .frame1 {
+max-width: 100vh;
+    }
+    .frame2 {
+max-width: 100vh;
+    }
+    .frame2 {
+max-width: 100vh;
+
+    }
   }
