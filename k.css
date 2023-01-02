@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+	background:url(A1.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 100vh; 
+}
+.container{
+    margin: 0 auto;
+    /* background-color: red; */
+    width: 85%;
+}
+nav h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background:white;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem;
+}
+nav hr{
+    width: 20%;
+    height: 4px solid black;
+    color: aqua;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+}
+section>h2{
+    text-align: center;
+    color: aliceblue;
+    margin: 2rem;
+}
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.starCards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.card{
+    padding: 0.4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url(k.jpg);
+    /* opacity: 0.7; */
+    border-radius: 0.5rem;
+    box-shadow: transparent;
+}
+.cardProfile {
+    width: 25%;
+    border-radius: 50%;
+
+}
+.card p{
+    color: aliceblue;
+    text-align: left;
+    padding: 1rem;
+}
+.cardProfile img{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    border: 4px solid rgb(6, 0, 10);
+}
+
+
+a{
+    text-decoration: none;
+}
+.card h3{
+    background:white;
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+@media screen AND (max-width: 1024px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .starCards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        padding:1rem 3rem;
+    }
+    section{
+        margin-top: 13rem;
+    }
+}
+@media screen AND (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .starCards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        padding:1rem 3rem;
+        margin-bottom: 3rem;
+    }
+    nav h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        background:white;
+        font-weight: 500;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+    }
+    section{
+        margin-top: 10rem;
+    }
+}
+
+/* modal styles */
+#modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background:blac; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: hidden;
+    opacity: 0.5;
+    transition: visibility 0s linear 0.25s, opacity 0.25s linear;
+    
+  }
+  
+  #modal-container.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s linear 0s, opacity 0.30s linear;
+  }
+  
+  #modal-container .modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    max-width:auto;
+    background:url(k.jpg);
+    box-shadow: 2px 3px 0 1px  rgb(254, 254, 254);
+    border-radius: 4px;
+    padding: 1rem 2rem;
+  }
+  
+  #modal-container .modal h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background:white;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+  }
+  
+  #modal-container .modal p {
+    margin: 0;
+    font-size: 14px;
+    color: #cbcbcb;
+    margin-top: 1rem;
+  }
+  
+  #modal-container .modal button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px ;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    color: grey;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    
+  }
+  
+  
+    
