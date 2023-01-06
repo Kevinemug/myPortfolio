@@ -7,10 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kevine's portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,700;1,400&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
+        <!-- <a href="ayuda.html#">
+            <div class="kex">
+                <p>KEX</p>
+            </div>
+        </a> -->
+
         <nav class="nav collapsible collapsible--expanded">
             <!-- <span><a class="nav__brand" href="/"><img src="images/logo.jpg" style="width:25rem;height:9rem;"></a> -->
             <p style="float: right; font-size:5rem;font-weight:bold;margin-right:20rem; color: black;">AYUDA</p>
@@ -19,39 +32,45 @@
                 <use xlink:href='images2/sprite.svg#menu'></use>
             </svg>
             <ul class="list nav__list collapsible__content">
-                <li class=" nav__item"><a href="#test">TESTIMONIALSó</a></li>
+                <li class=" nav__item"><a href="#test">TESTIMONIALS</a></li>
 
                 <li class=" nav__item"><a href="#blog">BLOG</a></li>
                 <li class="nav__item"><a href="#experience">EXPERIENCE</a></li>
 
                 <li class="nav__item"><a href="#contact">CONTACT</a></li>
 
-                <li class="nav__item"><a href="projects.html" target="_blank">PROJECTS</a></li>
+                <!-- <li class="nav__item"><a href="projects.html" target="_blank">PROJECTS</a></li> -->
                 <!-- <li class="nav__item"><a href="" target="_blank"></a></li>
                 <li class="nav__item"><a href="#">LOGOUT</a></li> -->
             </ul>
         </nav>
     </header>
 
-    <section class="block block--dark block--skewed-left hero">
-        <div class=" container grid grid--1x2" data-aos="flip-left">
-            <picture>
+    <section class="block block--dark  hero">
+        <div class=" container grid grid--1x2">
+            <picture data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                data-aos-duration="3000">
                 <img class="hero__image" src="images2/ke.jpg" alt="">
             </picture>
 
+
             <header class="block__header hero__content">
 
-                <h1 class="block__heading">It Always Seems Impossible Untill its DONE!!</h1>
+                <h1 class="block__heading" style="font-size: 50px;">It Always Seems Impossible Untill its DONE!!</h1>
                 <p class="hero__tagline">Education is the most powerful weapon which we can use to change the world!</p>
-                <a href="index.html" target="_blank" class="btn btn--accent btn--stretched">Go Back Home</a>
+                <a href="#contact" target="_blank" class="btn btn--accent btn--stretched">Contact Me</a>
             </header>
+
+
+
         </div>
     </section>
 
     </div>
     <section class="block container i" id="blog">
         <header class="block__header">
-            <h2>Kevine's Blog</h2>
+            <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="400">
+                Kevine's Blog</h2>
             <a href="#" class="link-arrow">I Talk About Tech Stuff</a>
 
 
@@ -68,7 +87,7 @@
                 <p>Want your machine to run faster? increase your RAM and SSD and you will be amazed</p>
                 <a href="#" class="link-arrow">Learn more</a>
             </div>
-            <picture>
+            <picture data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="400">
                 <source type="image/webp" srcset="images2/easy.webp 1x, images2/easy@2x.webp 2x" />
                 <source type="image/jpg" srcset="images2/easy.jpg 1x, images2/easy@2x.jpg 2x" />
                 <img class="feature__image" src="images2/easy@2x.jpg" alt="">
@@ -85,7 +104,7 @@
                 <p>Host you website on the cloud! increase your search count and so much more</p>
                 <a href="#" class="link-arrow">Learn more</a>
             </div>
-            <picture>
+            <picture data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="400">
                 <source type="image/webp" srcset="images2/fast.webp 1x, images2/fast@2x.webp 2x" />
                 <source type="image/jpg" srcset="images2/fast.jpg 1x, images2/fast@2x.jpg 2x" />
                 <img class="feature__image" src="images2/fast@2x.jpg" alt="">
@@ -103,7 +122,8 @@
                     Million Websites Worldwide.</p>
                 <a href="#" class="link-arrow">Learn more</a>
             </div>
-            <picture>
+            <picture data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                data-aos-duration="1000">
                 <source type="image/webp" srcset="images2/wordpress.webp 1x, images2/wordpress@2x.webp 2x" />
                 <source type="image/jpg" srcset="images2/wordpress.jpg 1x, images2/wordpress@2x.jpg 2x" />
                 <img class="feature__image" src="images2/wordpress@2x.jpg" alt="">
@@ -119,14 +139,15 @@
 
     </section>
 
+    <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="400"> I am
+        Experienced in</h2>
 
     <section class="block container block-plans" data-aos="zoom-in-up " id="experience">
-
         <div class="grid grid--1x3">
             <!-- <div style="width:50%;padding: 4rem;"> -->
             <div class="plan">
                 <div class="card card--secondary" data-aos="fade-right" data-aos-offset="300"
-                    data-aos-easing="ease-in-sine" data-aos-duration="3000">
+                    data-aos-easing="ease-in-sine" data-aos-duration="600">
                     <header class="card__header">
                         <span class="plan__price">Mobile</span>
                         <span class="plan__description">Apps</span>
@@ -186,12 +207,15 @@
 
 
 
-    <h2>what our clients are saying</h1>
 
-        <section id="test">
+    <section id="test">
+        <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="400">what our
+            clients are saying</h1>
+
             <div class="card testimonial">
                 <div class="grid grid--1x2">
-                    <div class="testimonial__image">
+                    <div class="testimonial__image" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <img src="images2/feedback.jpg" alt="A happy smiling customer">
                         <span class="icon-container icon-container--accent">
                             <svg class="icon icon--white icon--small">
@@ -225,7 +249,8 @@
             </div>
             <div class="card testimonial">
                 <div class="grid grid--1x2">
-                    <div class="testimonial__image">
+                    <div class="testimonial__image" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <img src="images2/img9.jpg" alt="A happy smiling customer">
                         <span class="icon-container icon-container--accent">
                             <svg class="icon icon--white icon--small">
@@ -254,7 +279,8 @@
             </div>
             <div class="card testimonial">
                 <div class="grid grid--1x2">
-                    <div class="testimonial__image">
+                    <div class="testimonial__image" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">
                         <img src="images2/testimonial.jpg" alt="A happy smiling customer">
                         <span class="icon-container icon-container--accent">
                             <svg class="icon icon--white icon--small">
@@ -266,7 +292,8 @@
                         <p class="quote__text">Working with Kevine is the best choice I have ever made</p>
                         <footer>
                             <div class="media">
-                                <div class="media__image">
+                                <div class="media__image" data-aos="fade-right" data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine" data-aos-duration="500">
                                     <svg class="icon icon--primary quote__line">
                                         <use xlink:href='images2/sprite.svg#line'></use>
                                     </svg>
@@ -279,101 +306,126 @@
                         </footer>
                     </blockquote>
                 </div>
-        </section>
+    </section>
 
 
 
-        <sectio id="contact">
-            <div class="callout callout--primary">
-                <div class="grid grid--1x2">
-                    <div class="callout__content">
-                        <h2 class="callout__heading block">Intrested In WOrking together?</h2>
-                        <p>Work with me if you want to see your dream website come to life.</p>
-                    </div>
-                    <a href="kevineeuwamahoro@gmail.com" class="btn btn--accent btn--streched">send me an email</a>
+    <section id="contact">
+        <div class="callout callout--primary">
+            <div class="grid grid--1x2">
+                <div class="callout__content">
+                    <h2 class="callout__heading block" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">Intrested In WOrking together?</h2>
+                    <p data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                        data-aos-duration="500">Work with me if you want to see your dream website come to life.</p>
                 </div>
+                <a href="kevineeuwamahoro@gmail.com" class="btn btn--accent btn--streched" data-aos="fade-right"
+                    data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="600">send me an email</a>
             </div>
-        </sectio>
-        <footer class="block block--dark footer">
-            <div class="container grid footer__sections">
-                <section class="collapsible collapsible--expanded footer__section">
-                    <div class="collapsible__header">
-                        <h2 class="collapsible__heading footer__heading">Services</h2>
-                        <svg class="icon  icon--white collapsible__chevron">
-                            <use xlink:href='images/sprite.svg#chevron'></use>
-                        </svg>
+        </div>
+    </section>
+    <section>
+        <ul class="list block-domain__prices">
+            <a href="index.html">
+                <li><span class="badge badge--secondary">.home </span></li>
+            </a>
+            <a href="#blog">
+                <li>.blog</li>
+            </a>
+            <a href="#experience">
+                <li>.skills </li>
+            </a>
+            <!-- <li>.info </li>
+            <li>.net </li>
+            <li>.xyz </li> -->
+        </ul>
+    </section>
 
-                    </div>
-                    <div class="collapsible__content ">
-                        <ul class="list">
-                            <li><a href="#">web design</a></li>
-                            <li><a href="#">mobile apps</a></li>
-                            <li><a href="#">web devlopment</a></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="collapsible footer__section">
-                    <div class="collapsible__header">
-                        <h2 class="collapsible__heading footer__heading">Information</h2>
-                        <svg class="icon  icon--white collapsible__chevron">
-                            <use xlink:href='images/sprite.svg#chevron'></use>
-                        </svg>
+    <footer class="block block--dark footer">
+        <div class="container grid footer__sections">
+            <section class="collapsible collapsible--expanded footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Services</h2>
+                    <svg class="icon  icon--white collapsible__chevron">
+                        <use xlink:href='images2/sprite.svg#chevron'></use>
+                    </svg>
 
-                    </div>
-                    <div class="collapsible__content ">
-                        <ul class="list">
-                            <li><a href="#blog">About</a></li>
-                            <li><a href="#test">testmonials</a></li>
-                            <li><a href="why.html">coding</a></li>
-                        </ul>
+                </div>
+                <div class="collapsible__content ">
+                    <ul class="list">
+                        <li><a href="#">web design</a></li>
+                        <li><a href="#">mobile apps</a></li>
+                        <li><a href="#">web devlopment</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Information</h2>
+                    <svg class="icon  icon--white collapsible__chevron">
+                        <use xlink:href='images2/sprite.svg#chevron'></use>
+                    </svg>
+
+                </div>
+                <div class="collapsible__content ">
+                    <ul class="list">
+                        <li><a href="#blog">About</a></li>
+                        <li><a href="#test">testmonials</a></li>
+                        <!-- <li><a href="why.html">coding</a></li> -->
+                    </ul>
 
 
-                    </div>
-                </section>
-                <section class="collapsible footer__section">
-                    <div class="collapsible__header">
-                        <h2 class="collapsible__heading footer__heading">Support</h2>
-                        <svg class="icon  icon--white collapsible__chevron">
-                            <use xlink:href='images/sprite.svg#chevron'></use>
-                        </svg>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Support</h2>
+                    <svg class="icon  icon--white collapsible__chevron">
+                        <use xlink:href='images2/sprite.svg#chevron'></use>
+                    </svg>
 
-                    </div>
-                    <div class="collapsible__content ">
+                </div>
+                <div class="collapsible__content ">
 
-                        <ul class="list">
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="https://www.shopify.com/blog/motivational-quotes">Qoutes</a></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="collapsible footer__section">
-                    <div class="collapsible__header">
-                        <h2 class="collapsible__heading footer__heading">ALLOCATES</h2>
-                        <svg class="icon  icon--white collapsible__chevron">
-                            <use xlink:href='images/sprite.svg#chevron'></use>
-                        </svg>
+                    <ul class="list">
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://www.shopify.com/blog/motivational-quotes">Qoutes</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">ALLOCATES</h2>
+                    <svg class="icon  icon--white collapsible__chevron">
+                        <use xlink:href='images2/sprite.svg#chevron'></use>
+                    </svg>
 
-                    </div>
-                    <div class="collapsible__content ">
+                </div>
+                <div class="collapsible__content ">
 
-                        <ul class="list">
-                            <li><a href="#"></a></li>
-                            <li><a href="#">UR</a></li>
-                            <li><a href="#">CSE</a></li>
-                        </ul>
-                    </div>
-                </section>
-                <section class="footer__brand">
-                    <p class="footer__copyright">Copyright 2022</p>
-                    <p class="footer__copyright">By MUGISHA Kevine</p>
-                </section>
-            </div>
-        </footer>
+                    <ul class="list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">UR</a></li>
+                        <li><a href="#">CSE</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="footer__brand">
+                <p class="footer__copyright">Copyright 2022</p>
+                <p class="footer__copyright">By MUGISHA Kevine</p>
+            </section>
+        </div>
+    </footer>
 
-        <script src=ayuda.js></script>
+    <script src=ayuda.js></script>
 
-        <script src="index.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 
 </body>
 
